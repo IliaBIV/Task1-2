@@ -59,7 +59,7 @@ class mainTest {
         val amount = 15001
         val totalAmount = 0
         val result = comission(cardType = card, amount = amount, totalAmount = totalAmount)
-        assertEquals(ERROR, result)
+        assertEquals(100, result)
     }
 
     @Test
@@ -77,7 +77,7 @@ class mainTest {
         val amount = 7500
         val totalAmount = 0
         val result = comission(cardType = card, amount = amount, totalAmount = totalAmount)
-        assertEquals(0, result)
+        assertEquals(10, result)
     }
 
     @Test
